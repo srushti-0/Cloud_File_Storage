@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud File Storage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Upload File</h2>
+
+<input type="file" id="fileInput">
+
+<button onclick="uploadFile()">Upload</button>
+
+<p id="uploadStatus"></p>
+    </div>
+    <hr>
+
+<h2>Uploaded Files</h2>
+
+<button onclick="loadFiles()">Refresh File List</button>
+
+<ul id="fileList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
